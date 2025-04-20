@@ -143,3 +143,58 @@ section {
   background-color: var(--background);
   color: #fff;
 }
+
+::-webkit-scrollbar {
+  width: 20px;
+  background-color: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #ea530d, #6cff52);
+}
+
+#about {
+  background-color: var(--second-background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5em;
+}
+
+#about img {
+  width: 30vw;
+  border-radius: 1em;
+}
+
+.about-box {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 2em;
+}
+
+.about-box h1 {
+  font-size: 5em;
+}
+
+.about-box p {
+  color: #fff;
+  opacity: 0.8;
+  font-size: 1.2em;
+}
+
+.skills {
+  display : flex;
+  text-align: left;
+  gap: 10em;
+}
+
+.skills ul {
+  font-size: 1.3em;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  opacity: 0.8;
+  align-items: baseline;
+}
